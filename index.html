@@ -1,26 +1,27 @@
 <html>
-    <head>
-        <title>
-            Project C78
-        </title>
 
-        <link rel="stylesheet" href="style.css" type="text/css">
+<head>
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
 
-    </head>
-    <body>
-        <center style="margin-top: 40px;">
-            <h1>
-                My Family Book
-            </h1>
+<body>
+    <center>
+        <h3 style="margin-top: 20px; margin-bottom: 20px;"> List your items</h3>
+        <div><span>1</span><input type="text" placeholder="Name of you item" id="student1">
+            <br>
+            <span>2</span><input type="text" placeholder="Name of you item" id="student2">
+            <br>
+            <span>3</span><input type="text" placeholder="Name of you item" id="student3">
+            <br>
+            <span>4</span><input type="text" placeholder="Name of you item" id="student4">
+            <br>
+        </div>
+        <button onclick="submit()" id="submit_button">Submit</button>
+        <div id="display_name" style="font-weight: bold;"></div>
+        <button onclick="sorting()" id="sort_btn">Sort</button>
+    </center>
+</body>
 
-            <img src="https://i.postimg.cc/MKdhy06Z/family.jpg" id="family_member_image" width="150px" height="200px">
-            <h4 id="family_member_name"></h4>
-            <button>onclick="update();"Next<button>
-           <!-- Debug the above code to create a button with onclick functionality as given below-->
-            <!-- <button onclick="update();">Next</button>  -->
-          
-        </center>
-
-        <script src="main.js"></script>
-    </body>
 </html>
